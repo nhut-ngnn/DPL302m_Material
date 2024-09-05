@@ -20,5 +20,3 @@ Email: <link>minhnhut.ngnn@gmail.com </link>
 GitHub: <link>https://github.com/nhut-ngnn</link>
 
 Website: <link>https://nhut-ngnn.github.io/</link>
-
-ORCID: <link>https://orcid.org/0009-0003-1281-5346</link>
