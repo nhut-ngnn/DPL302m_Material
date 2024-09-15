@@ -1,0 +1,4 @@
+original_validation_dir: "C:/Users/admin/Documents/DPL302m/DPL302m_Material/Code/EduNext_Slot6/Dataset/validation"
+validation_dir: "C:/Users/admin/Documents/DPL302m/DPL302m_Material/Code/EduNext_Slot6/Data_process/validation"
+test_dir: "C:/Users/admin/Documents/DPL302m/DPL302m_Material/Code/EduNext_Slot6/Data_process/test"
+train_dir: "C:/Users/admin/Documents/DPL302m/DPL302m_Material/Code/EduNext_Slot6/Data_process/train"
