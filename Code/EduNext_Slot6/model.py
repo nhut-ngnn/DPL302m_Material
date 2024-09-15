@@ -1,8 +1,8 @@
 from tensorflow.keras.models import Sequential 
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, BatchNormalization, Dropout, Dense, Flatten
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau, CSVLogger
-from data_augmentation import *
-
+from Preprocessing.data_augmentation import *
+from utils.utils import model_dir
 import time
 
 def create_model(input_shape=(WIDTH, HEIGHT, 3)):
@@ -44,7 +44,7 @@ def create_model(input_shape=(WIDTH, HEIGHT, 3)):
 # Example usage
 model = create_model()
 
-models_path = 'C:/Users/admin/Documents/DPL302m/DPL302m_Material/Code/EduNext_Slot6/Models/'
+models_path = model_dir()
 # os.makedirs(models_path)
 
 learning_rate_reduction = ReduceLROnPlateau(monitor='val_accuracy', 
